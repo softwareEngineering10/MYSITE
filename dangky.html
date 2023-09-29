@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký Thành Viên</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <a href="trangchu.html"><img src="images/logo.png" alt="logo" /></a>
+        <nav>
+            <a href="trangchu.html">Trang chủ</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="tintuc.html">Tin tức</a>
+            <a href="dangnhap.html">đăng nhập</a>
+            <a href="dangky.html">Đăng ký</a>
+            <a href="lienhe.html">Liên hệ</a>
+        </nav>
+    </header>
+    <main>
+        <fieldset>
+            <legend>ĐĂNG KÝ</legend>
+            <table>
+                <tr>
+                    <th><label for="email">Email</label></th>
+                    <td><input type="text" id="email" name="email" placeholder="Vui lòng nhập email"></td>
+                </tr>
+                <tr>
+                    <th><label for="mk">Mật khẩu</label></th>
+                    <td><input type="password" id="mk" name="psw" placeholder="Vui lòng nhập mật khẩu"></td>
+                </tr>
+                <tr>
+                    <th><label for="mk2">Nhập lại mật khẩu</label></th>
+                    <td><input type="password" id="mk2" name="psw2" placeholder="Vui lòng nhập mật khẩu"></td>
+                </tr>
+                <tr>
+                    <th><label>Các độ thành viên</label></th>
+                    <td>
+                        <input type="radio" name="memberType" value="Bạc">
+                        <label>Bạc</label>
+                        <input type="radio" name="memberType" value="Vàng">
+                        <label>Vàng</label>
+                        <input type="radio" name="memberType" value="Bạch kim">
+                        <label>Bạch Kim</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="">Ảnh đại diện</label></th>
+                    <td>
+                        <input type="file" method="post" enctype="multipart/form-data" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Thông qua việc tạo tài khoản, bạn đồng ý với
+                        <a href="https://www.w3schools.com/" target="_blank">Điều khoản & Quyền riêng tư của chúng
+                            tôi</a>
+
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <input type="reset" value="Hủy">
+                        <input type="submit" value="Đăng Ký" />
+                    </th>
+                </tr>
+            </table>
+        </fieldset>
+    </main>
+    <footer>
+        <p>&copy; 2021 Bản quyền thuộc về FreeezeVN.
+            <a href="https://www.facebook.com">facebook</a>
+            <a href="https://twitter.com/">twitter</a>
+            <a href="https://www.pinterest.com/">pinterest</a>
+            <a href="trangchu.html">Về trang đầu</a>
+        </p>
+    </footer>
+</body>
+
+</html>
